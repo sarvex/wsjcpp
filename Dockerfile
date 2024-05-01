@@ -1,6 +1,6 @@
 
 # wsjcpp@v0.2.2
-FROM debian:10
+FROM debian:12
 # install build requiremenets
 RUN apt update && apt install -y --no-install-recommends \
   build-essential \
